@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Income Tax Calculator</title>
+</head>
+<body>
+<h3>Enter Payslip details</h3>
+<div class="form-div">
+    <p>
+        <mat-label>Basic Salary</mat-label>
+        <mat-form-field appearance="legacy">
+          <input class="form-input" matInput type="number">
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-label>House Rent Allowance</mat-label>
+        <mat-form-field appearance="legacy">
+          <input class="form-input" matInput type="number">
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-label>Employer's Provident Fund</mat-label>
+        <mat-form-field appearance="legacy">
+          <input class="form-input" matInput type="number">
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-label>Total Salary</mat-label>
+        <mat-form-field appearance="legacy">
+          <input class="form-input" matInput type="number">
+        </mat-form-field>
+    </p>
+    <button mat-button color="primary" (click)="calcute()">Calculate</button>
+    <p>
+      <mat-label>Monthly Salary</mat-label>
+      <mat-form-field appearance="legacy">
+        {{monthSalary}}
+      </mat-form-field>
+    </p>
+</div>
+</body>
+</html>

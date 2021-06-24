@@ -1,0 +1,43 @@
+h3{
+    display: block;
+    text-align: center;
+    padding-top: 15vh;
+    color: white;
+    font-size: xx-large;
+}
+
+body{
+    background-image:url("../../assets/dark_background.jpeg");
+}
+.form-div{
+    display: table;
+    padding-left: 25vw;
+    padding-top: 2vw;
+}
+p{
+    display: table-row;
+    color: white;
+}
+
+mat-label{
+    display: table-cell;
+    padding-right: 15vw;
+    padding-bottom: 8vh;
+    font-size: xx-large;
+    color: white;
+}
+
+::ng-deep .mat-form-field-wrapper{
+    margin-bottom: -1.25em;
+ }
+
+/* input{
+    display: inline-block;
+} */
+mat-form-field{
+    display: table-cell;
+}
+.form-input{
+    border: 1px solid white;
+    height: 5vh;
+}
